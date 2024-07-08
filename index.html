@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unique HTML with Tailwind CSS</title>
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 font-sans">
+    <header class="bg-blue-500 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <div>
+                <h1 class="text-2xl font-bold">My Unique Website</h1>
+                <p class="text-sm">Welcome to my awesome website!</p>
+            </div>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="hover:text-gray-300">Home</a></li>
+                    <li><a href="#" class="hover:text-gray-300">About</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Services</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto py-8">
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-white p-6 shadow-md rounded-lg">
+                <h2 class="text-2xl font-bold mb-4">Welcome to My Website!</h2>
+                <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor nunc
+                    ut ex
+                    lobortis, in gravida velit mollis.</p>
+                <a href="#" class="mt-4 inline-block bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded">Learn
+                    More</a>
+            </div>
+            <div class="bg-white p-6 shadow-md rounded-lg">
+                <h2 class="text-2xl font-bold mb-4">Our Services</h2>
+                <ul>
+                    <li class="mb-2"><a href="#" class="text-blue-500 hover:underline">Service 1</a></li>
+                    <li class="mb-2"><a href="#" class="text-blue-500 hover:underline">Service 2</a></li>
+                    <li class="mb-2"><a href="#" class="text-blue-500 hover:underline">Service 3</a></li>
+                    <li class="mb-2"><a href="#" class="text-blue-500 hover:underline">Service 4</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="mt-8">
+            <h2 class="text-3xl font-bold mb-4">Testimonials</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="bg-white p-4 shadow-md rounded-lg">
+                    <p class="text-gray-700">"Great service and excellent support!"</p>
+                    <p class="text-gray-600 mt-2">- John Doe</p>
+                </div>
+                <div class="bg-white p-4 shadow-md rounded-lg">
+                    <p class="text-gray-700">"Highly recommended. Very professional."</p>
+                    <p class="text-gray-600 mt-2">- Jane Smith</p>
+                </div>
+                <div class="bg-white p-4 shadow-md rounded-lg">
+                    <p class="text-gray-700">"Best experience ever!"</p>
+                    <p class="text-gray-600 mt-2">- Michael Johnson</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 My Unique Website. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
